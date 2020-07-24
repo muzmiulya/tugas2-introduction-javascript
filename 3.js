@@ -13,7 +13,13 @@ Output:
 
 */
 
-const printSegitiga = 8
+const printSegitiga = 9
+
+
+if (typeof(printSegitiga) === 'string') {
+    console.log("Data harus number")
+}
+
 
 for (i = printSegitiga; i >= 1; i--){
     hasil = ''
