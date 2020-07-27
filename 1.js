@@ -19,14 +19,30 @@ const biodata = {
     hobbies: ["Papercraft", "Bersepeda"],
     isMaried: false,
     schoolList: [
-        {name: "Universitas Brawijaya"},
-        {yearIn: 2013},
-        {yearOut: 2017},
-        {major: "Teknik Mesin"}
+        {name: "SD Islam Nurul Hidayah",
+        yearIn: 2001,
+        yearOut: 2007,
+        major: null
+        },{name: "SMP Islam Al-Syukro",
+        yearIn: 2007,
+        yearOut: 2010,
+        major: null
+        },{name: "SMAN 3 Tangerang Selatan",
+        yearIn: 2010,
+        yearOut: 2013,
+        major: "IPA"
+        },{name: "Universitas Brawijaya",
+        yearIn: 2013,
+        yearOut: 2017,
+        major: "Teknik Mesin"
+        }
     ],
     skills: [
-        {skillName: "Javascript"},
-        {level: "beginner"}
+        {skillName: "Javascript",
+        level: "beginner"
+        },{skillName: "HTML",
+        level: "beginner"
+        }
     ],
     interestInCoding: true
 }

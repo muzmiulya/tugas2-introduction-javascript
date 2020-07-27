@@ -13,15 +13,15 @@ Output:
 
 */
 
-const printSegitiga = 9
+const printSegitiga = 7
 
 
-if (typeof(printSegitiga) === 'string') {
+if (typeof printSegitiga !== 'number') {
     console.log("Data harus number")
+    return
 }
 
-
-for (i = printSegitiga; i >= 1; i--){
+for (let i = printSegitiga; i >= 1; i--){
     hasil = ''
     for (j = 1; j <= i; j++){
         hasil += j
