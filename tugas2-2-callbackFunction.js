@@ -25,16 +25,10 @@ const name = [
 
 
 function searchName(cariKata, banyakOutput, showOutput){
-    let nametoLowerCase = name.map(function(value){
-        return value.toLowerCase()
-    })
-    let nama = nametoLowerCase.filter(function(value){
-        return value.includes(cariKata)
-    })
+    let nametoLowerCase = name.map(value => value.toLowerCase())
+    let nama = nametoLowerCase.filter(value => value.includes(cariKata))
     let sliced = nama.slice(0, banyakOutput)
-    let nametoUpperCase = sliced.map (function(value){
-        return value.charAt(0).toUpperCase() + value.substr(1)
-    })
+    let nametoUpperCase = sliced.map (value => value.charAt(0).toUpperCase() + value.substr(1))
     showOutput(nametoUpperCase)
 }
 

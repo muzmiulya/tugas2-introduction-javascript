@@ -14,19 +14,14 @@ function seleksiNilai(nilaiAwal, nilaiAkhir, dataArray){
     }else if(i <= 5){
         return console.log("Jumlah angka dalam dataArray harus lebih dari 5")
     }else {
-        let j = dataArray.filter(function(nilai) {
-            return nilai >= nilaiAwal && nilai <= nilaiAkhir
-        })
+        let j = dataArray.filter(nilai => nilai >= nilaiAwal && nilai <= nilaiAkhir)
         // let j = []
         // for(let z = 0; z < dataArray.length; z++){
         //     if(dataArray[z] >= nilaiAwal && dataArray[z] <= nilaiAkhir){
         //         j.push(dataArray[z])
         //     }
         // }
-        // console.log(j)
-        let k = j.sort(function(a, b){
-            return a - b
-        })
+        let k = j.sort((a, b) => a - b)
         console.log(k)
     }
 }
