@@ -29,6 +29,7 @@ function searchName(cariKata, banyakOutput, showOutput){
     let nama = nametoLowerCase.filter(value => value.includes(cariKata))
     let sliced = nama.slice(0, banyakOutput)
     let nametoUpperCase = sliced.map (value => value.charAt(0).toUpperCase() + value.substr(1))
+    // bisa aja memakai let nama = hasil.filter(value => value.includes(cariKata.toLowerCase()).slice(0, banyakOutput))
     showOutput(nametoUpperCase)
 }
 
