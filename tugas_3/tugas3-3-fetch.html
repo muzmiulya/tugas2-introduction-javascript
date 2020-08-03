@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+	
+  <script>
+    /*
+Buatlah program menggunakan method fetch untuk menampilkan semua name (hanya name nya saja) dari REST API dibawah ini
+https://jsonplaceholder.typicode.com/users
+Gunakan debugger console bawaan browser Chrome untuk melihat hasilnya
+*/
+
+// async function fetchAsync () {
+//   let tunggu = await fetch('https://jsonplaceholder.typicode.com/users')
+//   let data = await tunggu.json()
+//   let newPromise = new Promise ((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve (data)
+//     }, 250)
+//     setTimeout(() => {
+//       reject (new Error ("Gagal"))
+//     }, 250)
+//   })
+//     return data
+//   }
+
+//   fetchAsync()
+//     .then(users =>{
+//         const names = users.map(person => person.name).join("\n")
+//         console.log(names)
+//     })
+//     .catch(error => console.log(error))
+
+let newPromise = new Promise ((resolve, reject) => {
+    setTimeout(() => {
+      resolve (fetch('https://jsonplaceholder.typicode.com/users'))
+    }, 250)
+    setTimeout(() => {
+      reject (new Error ("Gagal"))
+    }, 250)
+  })
+
+async function fetchAsync () {
+  try{
+  let tungguPromise = await newPromise
+  let data = await tungguPromise.json()
+  .then(users =>{
+        const names = users.map(person => person.name).join("\n")
+        console.log(names)
+  })
+  }catch(error){
+    console.log(error)
+  }
+  }
+fetchAsync()
+
+  </script>
+</html>
