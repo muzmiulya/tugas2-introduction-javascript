@@ -18,11 +18,11 @@ const getMonth = (callback) =>{
     }, 4000)
 }
 
-function callbackBro(adaError, bulan){
+function callback(adaError, bulan){
     if (adaError !== null){
-        console.log(adaError)
+            console.log(adaError)
     }else{
-        bulan.map(value => console.log(value))
+            bulan.map(value => console.log(value))
     }
 }
-getMonth(callbackBro)
+getMonth(callback)
