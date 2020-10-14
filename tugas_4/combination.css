@@ -1,0 +1,128 @@
+@font-face {
+  font-family: airbnb;
+  src: url(AirbnbCerealBlack.ttf);
+}
+
+@font-face {
+  font-family: airbnblight;
+  src: url(AirbnbCerealLight.ttf);
+}
+
+@font-face {
+  font-family: airbnbbook;
+  src: url(AirbnbCerealBook.ttf);
+}
+
+@font-face {
+  font-family: airbnbmedium;
+  src: url(AirbnbCerealMedium.ttf);
+}
+/*==================================================*/
+.cart-col {
+  font-weight: bold;
+  text-align: center;
+  padding: 18px;
+  font-size: 30px;
+  font-family: airbnb;
+  border-left: 3px outset white;
+  border-bottom: 2px outset whitesmoke;
+}
+.firstColumn {
+  box-shadow: 3px 2px 2px grey;
+}
+.home-col {
+  font-weight: bold;
+}
+
+.home-col img {
+  width: 35px;
+  padding-top: 15px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fooditem {
+  padding-top: 15px;
+  text-align: center;
+}
+.fooditem p {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: airbnbmedium;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.grid-container div {
+  background-color: transparent;
+  width: 220px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px 10px;
+}
+
+.grid-container div img {
+  object-fit: cover;
+  width: 220px;
+  height: 170px;
+}
+
+.grid-container div h1 {
+  font-size: 23px;
+  font-family: airbnbmedium;
+  margin-bottom: 0;
+}
+.grid-container div p {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: airbnb;
+}
+.menu-col {
+  border-top: 3px outset white;
+  height: auto;
+  box-shadow: 3px 2px 2px grey;
+}
+
+.rom {
+  padding: 30px;
+  position: relative;
+}
+
+.rom img {
+  max-width: 40px;
+  height: auto;
+}
+.search {
+  padding-right: 15px;
+}
+.search img {
+  padding-top: 15px;
+  display: block;
+  width: 35px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.yourcart-col {
+  text-align: center;
+  height: auto;
+  font-family: airbnbmedium;
+  border-left: 2px outset whitesmoke;
+  position: relative;
+  z-index: 1;
+}
+.yourcart-col img {
+  margin-top: 50px;
+  width: 200px;
+  height: auto;
+}
+
+/*==============================================*/

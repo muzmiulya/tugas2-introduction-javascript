@@ -1,0 +1,89 @@
+@font-face {
+  font-family: airbnb;
+  src: url(AirbnbCerealBlack.ttf);
+}
+
+@font-face {
+  font-family: airbnblight;
+  src: url(AirbnbCerealLight.ttf);
+}
+
+@font-face {
+  font-family: airbnbbook;
+  src: url(AirbnbCerealBook.ttf);
+}
+
+@font-face {
+  font-family: airbnbmedium;
+  src: url(AirbnbCerealMedium.ttf);
+}
+
+.container {
+  display: flex;
+  width: 500px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-family: airbnbmedium;
+  flex-wrap: wrap;
+}
+
+.container div {
+  border: 2px solid black;
+}
+
+.box1 {
+  flex: 6;
+}
+.box2 {
+  flex: 6;
+  text-align: end;
+}
+
+.box3 {
+  flex: 1;
+}
+
+/* .container div {
+  flex: 1;
+}
+.borderin {
+  border: 2px solid black;
+  width: max-content;
+}
+
+.top30 {
+  margin-top: 30px;
+}
+.top70 {
+  margin-top: 70px;
+}
+
+.btn-primary {
+  width: 520px;
+  background-color: #f24f8a;
+  border: #f24f8a;
+  font-size: 23px;
+}
+
+.btn-secondary {
+  width: 520px;
+  background-color: #57cad5;
+  border: #57cad5;
+  font-size: 23px;
+}
+
+.bold {
+  font-weight: bold;
+}
+.font1 .font3 {
+  font-size: 23px;
+}
+
+.font2 {
+  font-size: 14px;
+} */

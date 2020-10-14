@@ -1,0 +1,363 @@
+@font-face {
+  font-family: airbnb;
+  src: url(AirbnbCerealBlack.ttf);
+}
+
+@font-face {
+  font-family: airbnblight;
+  src: url(AirbnbCerealLight.ttf);
+}
+
+@font-face {
+  font-family: airbnbbook;
+  src: url(AirbnbCerealBook.ttf);
+}
+
+@font-face {
+  font-family: airbnbmedium;
+  src: url(AirbnbCerealMedium.ttf);
+}
+/*==================================================*/
+html {
+  font-size: 100%;
+}
+/* .container-fluid div {
+  border: 1px solid black;
+} */
+
+.cart-col {
+  font-weight: bold;
+  text-align: center;
+  padding: 18px;
+  font-size: 30px;
+  font-family: airbnb;
+  border-left: 3px outset white;
+  border-bottom: 2px outset whitesmoke;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+.firstColumn {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.fooditem {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.fooditem p {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: airbnbmedium;
+}
+/* .greys {
+  background-color: rgba(190, 195, 202, 0.3);
+  position: relative;
+  z-index: 0;
+} */
+
+.gridbackground {
+  background-color: lightgrey;
+  z-index: -1;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  background-color: transparent;
+  padding: 30px;
+}
+
+.grid-container div {
+  background-color: transparent;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px 10px;
+}
+
+.grid-container div img {
+  object-fit: cover;
+  width: 220px;
+  max-width: 100%;
+  height: 170px;
+  max-height: auto;
+  position: relative;
+}
+
+.grid-container div h1 {
+  font-size: 23px;
+  font-family: airbnbmedium;
+  margin-bottom: 0;
+}
+.grid-container div p {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: airbnb;
+}
+.home-col {
+  font-weight: bold;
+}
+
+.home-col img {
+  width: auto;
+  max-width: 100%;
+  padding: 20px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-col {
+  border-top: 3px outset white;
+  height: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  position: relative;
+}
+
+.rom {
+  position: relative;
+  padding: 30px;
+}
+
+.rom img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+.search img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+}
+
+.yourcart-col {
+  text-align: center;
+  background-color: white;
+  position: relative;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  font-family: airbnbmedium;
+  border-left: 2px outset whitesmoke;
+  padding: 0;
+}
+.yourcart-col h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.yourcart-col p {
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.4;
+}
+
+.yourcart-col img {
+  padding: 70px;
+  object-fit: contain;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 0;
+}
+
+/*==============================================*/
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1024px) {
+  .cart-col {
+    font-size: 20px;
+    padding: 13px;
+  }
+  .fooditem p {
+    font-size: 20px;
+  }
+  .grid-container div h1 {
+    font-size: 17px;
+  }
+  .grid-container div p {
+    font-size: 17px;
+  }
+
+  .grid-container {
+    float: none;
+    grid-template-columns: auto auto auto;
+  }
+  .grid-container div {
+    width: 150px;
+  }
+  .grid-container div img {
+    object-fit: cover;
+    width: 220px;
+    max-width: 100%;
+    height: 100px;
+    max-height: auto;
+  }
+
+  .home-col img {
+    padding: 12px;
+  }
+
+  .rom {
+    padding: 20px;
+  }
+
+  .search img {
+    padding: 12px;
+  }
+  .yourcart-col h1 {
+    font-size: 20px;
+  }
+  .yourcart-col p {
+    font-size: 15px;
+  }
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  .fooditem p {
+    font-size: 18px;
+    margin: auto;
+  }
+  .cart-col {
+    font-size: 17px;
+    padding: 10px;
+  }
+  .grid-container div h1 {
+    font-size: 17px;
+  }
+  .grid-container div p {
+    font-size: 17px;
+  }
+  .yourcart-col h1 {
+    font-size: 15px;
+  }
+  .yourcart-col p {
+    font-size: 10px;
+  }
+
+  .grid-container {
+    float: none;
+    grid-template-columns: auto auto;
+  }
+  .grid-container div {
+    width: 170px;
+  }
+  .grid-container div img {
+    object-fit: cover;
+    width: 220px;
+    max-width: 100%;
+    height: 100px;
+    max-height: auto;
+  }
+
+  .rom {
+    padding: 15px;
+  }
+
+  .rom img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .home-col img {
+    padding: 3px;
+  }
+  .search img {
+    padding: 3px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .fooditem p {
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+
+  .cart-col {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .grid-container div h1 {
+    font-size: 10px;
+  }
+  .grid-container div p {
+    font-size: 10px;
+  }
+  .yourcart-col h1 {
+    font-size: 15px;
+  }
+  .yourcart-col p {
+    font-size: 10px;
+  }
+
+  .grid-container {
+    float: none;
+    grid-template-columns: auto auto;
+    width: 100%;
+    grid-gap: 10px;
+    padding: 30px;
+  }
+  .grid-container div {
+    width: 100px;
+  }
+
+  .rom {
+    padding: 6px;
+  }
+  .home-col img {
+    padding: 3px;
+  }
+
+  .yourcart-col {
+    display: none;
+    z-index: -1;
+  }
+  .gridbackground {
+    background-color: lightgrey;
+    position: relative;
+    /* z-index: 0; */
+    width: 100%;
+  }
+  .greys {
+    position: relative;
+    z-index: 1;
+  }
+
+  .grid-container div img {
+    object-fit: cover;
+    width: 220px;
+    max-width: 100%;
+    height: 80px;
+    max-height: auto;
+  }
+  .search img {
+    display: block;
+    width: 40px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+  }
+  .home-col img {
+    width: 40px;
+    max-width: 100%;
+    padding: 0;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-col {
+    padding: 5px;
+  }
+  .search {
+    padding: 5px;
+  }
+}

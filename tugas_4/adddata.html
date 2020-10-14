@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="adddata.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row bold fontsize">
+        <div class="additem borderin">Add item</div>
+      </div>
+      <div class="row justify-content-between top30">
+        <div class="col-3 name bold fontsize2 borderin">
+          Name
+        </div>
+        <div class="col-9 isibox borderin">
+          <input type="text" class="textbox" />
+        </div>
+      </div>
+      <div class="row justify-content-between top15">
+        <div class="col-3 bold fontsize2 borderin">
+          Image
+        </div>
+        <div class="col-9 isibox borderin">
+          <input type="text" class="textbox" />
+        </div>
+      </div>
+      <div class="row top15">
+        <div class="col-3 bold price fontsize2 borderin">
+          Price
+        </div>
+        <div class="col-9 isibox2 borderin">
+          <input type="text" class="textbox2" />
+        </div>
+      </div>
+      <div class="row top15">
+        <div class="col-3 bold category fontsize2 borderin">
+          Category
+        </div>
+        <div class="col-9 slidedown borderin">
+          <button
+            class="btn btn-outline-secondary dropdown-toggle"
+            type="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Category
+          </button>
+          <!-- <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Minuman</a>
+            <a class="dropdown-item" href="#">Makanan</a>
+          </div> -->
+        </div>
+      </div>
+      <div class="row justify-content-end top30">
+        <div class="col-3 borderin">
+          <button type="button" class="btn btn-secondary">Cancel</button>
+        </div>
+        <div class="col-3 borderin">
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

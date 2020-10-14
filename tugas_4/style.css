@@ -1,0 +1,99 @@
+/* h1 {
+  color: red;
+}
+
+.spec2 {
+  color: orange;
+} */
+
+/* #spec1 {
+  color: red;
+} */
+/* 
+.spec3 {
+  text-decoration: underline;
+}
+
+h3:hover {
+  font-size: 30px;
+  color: brown;
+}
+
+h4 {
+  color: brown;
+}
+
+h4::before {
+  content: "Hello, ";
+}
+
+h4::after {
+  content: "!!!";
+} */
+.container-position {
+  position: relative;
+}
+
+.kotak0 {
+  width: 850px;
+  height: 100px;
+  background-color: white;
+  border: 2px outset;
+
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.kotak1 {
+  width: 100px;
+  height: 1000px;
+  background-color: white;
+  border: 2px outset;
+}
+.kotak2 {
+  width: 500px;
+  height: 100px;
+
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2px outset;
+
+  padding: 25px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  /* RELATIVE */
+  /* position: relative;
+  top: 5px;
+  left: 20px; */
+}
+
+.kotak3 {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 500px;
+  height: 1000px;
+  background-color: white;
+  border: 2px outset;
+}
+
+.kotak4 {
+  width: 750px;
+  height: 1000px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  /* z-index menentukan level */
+  z-index: 1;
+}
+
+.panjangweb {
+  height: 1000px;
+}

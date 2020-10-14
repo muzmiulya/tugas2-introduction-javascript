@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="home select.css" />
+    <link rel="stylesheet" href="AirbnbCerealLight.ttf" />
+
+    <!-- <link
+      rel="stylesheet"
+      href="file:///D:/Arkademy/bootstrap/bootstrap-4.5.1-dist/css/bootstrap.min.css"
+    /> -->
+
+    <!-- <script
+      types="text/javascript"
+      src="file:///D:/Arkademy/bootstrap/bootstrap-4.5.1-dist/js/bootstrap.min.js"
+    ></script> -->
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-8 firstColumn" id="firstColumn">
+              <div class="row">
+                <div class="col home-col" id="home-col">
+                  <img src="gambar/1.png" alt="" id="gambar1" />
+                </div>
+                <div class="col-9 fooditem" id="fooditem">
+                  <p>Food Items</p>
+                </div>
+                <div class="col search" id="search">
+                  <img src="gambar/2.png" alt="" id="gambar2" />
+                </div>
+              </div>
+            </div>
+            <div class="col-4 cart-col" id="cart-col">
+              Cart
+              <span class="badge badge-pill badge-primary" id="badge">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 greys">
+          <div class="row">
+            <div class="col-1 menu-col" id="menu-col">
+              <div class="row">
+                <div class="col align-self-sart rom id=" id="rom">
+                  <img src="gambar/3.png" alt="" id="gambar3" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col align-self-sart rom" id="rom2">
+                  <img src="gambar/4.png" alt="" id="gambar4" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col align-self-sart rom" id="rom3">
+                  <img src="gambar/5.png" alt="" id="gambar5" />
+                </div>
+              </div>
+            </div>
+            <div class="col-7 gridbackground" id="gridbackground">
+              <div class="grid-container" id="grid-container">
+                <div class="pictures">
+                  <img src="gambar/7.jpg" alt="" id="gambar7" />
+                  <h1>Espresso</h1>
+                  <p>Rp.10.000</p>
+                </div>
+                <div class="product-list">
+                  <div class="pictures">
+                    <img src="gambar/8.jpg" alt="" id="gambar8" />
+                    <h1>Cofee Latte</h1>
+                    <p>Rp.15.000</p>
+                  </div>
+                  <div class="select-image">
+                    <img src="gambar/tick2.png" class="icon-select" alt="" />
+                  </div>
+                </div>
+                
+                <div class="pictures">
+                  <img src="gambar/9.jpg" alt="" id="gambar9" />
+                  <h1>Cappucino</h1>
+                  <p>Rp.5.000</p>
+                </div>
+                <div class="pictures">
+                  <img src="gambar/10.jpg" alt="" id="gambar10" />
+                  <h1>Red Velvet Latte</h1>
+                  <p>Rp.33.000</p>
+                </div>
+                <div class="pictures">
+                  <img src="gambar/11.jpg" alt="" id="gambar11" />
+                  <h1>Choco Rum</h1>
+                  <p>Rp.28.000</p>
+                </div>
+                <div class="product-list">
+                  <div class="pictures">
+                  
+                    <img src="gambar/12.jpg" alt="" id="gambar12" />
+                    <h1>Black Forest</h1>
+                    <p>Rp.30.000</p>
+                    
+                  </div>
+                  <div class="select-image">
+                    <img src="gambar/tick2.png" class="icon-select" alt="" />
+                  </div>
+                </div>
+                
+                <div class="pictures">
+                  <img src="gambar/13.jpg" alt="" id="gambar13" />
+                  <h1>Chicken Katsu Dabu-dabu</h1>
+                  <p>Rp.60.000</p>
+                </div>
+                <div class="product-list">
+                  <div class="pictures">
+                    <img src="gambar/14.jpg" alt="" id="gambar14" />
+                    <h1>Salmon Truffle Teriyaki</h1>
+                    <p>Rp.60.000</p>
+                  </div>
+                  <div class="select-image">
+                    <img src="gambar/tick2.png" class="icon-select" alt="" />
+                  </div>
+                </div>
+               
+                <div class="pictures">
+                  <img src="gambar/15.jpg" alt="" id="gambar15" />
+                  <h1>Wiener Schnitzel</h1>
+                  <p>Rp.69.000</p>
+                </div>
+              </div>
+            </div>
+        <div class="col-4 yourcart-col">
+          <div class="thegrid">
+            <div class="gridbox1">
+              <div class="orderbox">
+                <div class="orderboxes1">
+                  <img src="gambar/8.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="orderboxes2">
+                  <div class="orderboxesamount1">Coffee Latte</div>
+                  <div class="orderboxesamount2">
+                    <div class="adder">
+                      <img src="gambar/minus.png" alt="" />
+                    </div>
+                    <div class="addernumber">1</div>
+                    <div class="adder">
+                      <img src="gambar/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="orderboxes3">
+                  <div class="orderprice">Rp. 15.000</div>
+                </div>
+              </div>
+              <div class="orderbox">
+                <div class="orderboxes1">
+                  <img src="gambar/12.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="orderboxes2">
+                  <div class="orderboxesamount1">Black Forest</div>
+                  <div class="orderboxesamount2">
+                    <div class="adder">
+                      <img src="gambar/minus.png" alt="" />
+                    </div>
+                    <div class="addernumber">1</div>
+                    <div class="adder">
+                      <img src="gambar/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="orderboxes3">
+                  <div class="orderprice">Rp. 30.000</div>
+                </div>
+              </div>
+              <div class="orderbox">
+                <div class="orderboxes1">
+                  <img src="gambar/14.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="orderboxes2">
+                  <div class="orderboxesamount1">Salmon Truffle</div>
+                  <div class="orderboxesamount2">
+                    <div class="adder">
+                      <img src="gambar/minus.png" alt="" />
+                    </div>
+                    <div class="addernumber">1</div>
+                    <div class="adder">
+                      <img src="gambar/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="orderboxes3">
+                  <div class="orderprice">Rp. 60.000</div>
+                </div>
+              </div>
+            </div>
+            <div class="gridbox2">
+              <div class="emptybox"></div>
+              <div class="filledbox">
+                <div class="totalprice">
+                  <div class="total">Total:</div>
+                  <div class="totalnumber">Rp. 150.000</div>
+                </div>
+                <div class="ppn">*belum termasuk ppn</div>
+                <div class="checkoutbutton">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-toggle="modal"
+                    data-target="#modalcheckout"
+                  >
+                    Checkout
+                  </button>
+                </div>
+                <div class="cancelbutton">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-toggle="modal"
+                    data-target="#modaladddata"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========================================================== -->
+    <div
+      class="modal fade"
+      id="modalcheckout"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body fonts">
+            <div class="boxemp">
+              <div class="boxemp1">
+                <div class="container-flex1">
+                  <div class="boxempty">
+                    <div class="container-flex1-1">
+                      <div class="box1">Checkout</div>
+                    </div>
+                  </div>
+                  <div class="boxempty">
+                    <div class="container-flex1-2">
+                      <div class="box2">Receipt no:</div>
+                      <div class="box3">#010410919</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-flex2">
+                  <div class="box4">Chashier:</div>
+                  <div class="box5">Pevita Pearce</div>
+                </div>
+              </div>
+              <div class="boxemp2">
+                <div class="container-flex3 margintop">
+                  <div class="boxempty">
+                    <div class="container-flex3-1">
+                      <div class="box6">Coffee Latte</div>
+                      <div class="box7">1x</div>
+                    </div>
+                  </div>
+                  <div class="boxempty">
+                    <div class="container-flex3-2">
+                      <div class="box8">Rp. 15.000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-flex3">
+                  <div class="boxempty">
+                    <div class="container-flex3-1">
+                      <div class="box6">Black Forest</div>
+                      <div class="box7">1x</div>
+                    </div>
+                  </div>
+                  <div class="boxempty">
+                    <div class="container-flex3-2">
+                      <div class="box8">Rp. 30.000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-flex3">
+                  <div class="boxempty">
+                    <div class="container-flex3-1">
+                      <div class="box6">Salmon Truffle Teriyaki</div>
+                      <div class="box7">1x</div>
+                    </div>
+                  </div>
+                  <div class="boxempty">
+                    <div class="container-flex3-2">
+                      <div class="box8">Rp. 60.000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-flex3">
+                  <div class="boxempty">
+                    <div class="container-flex3-1">
+                      <div class="box6">PPn</div>
+                      <div class="box7">10%</div>
+                    </div>
+                  </div>
+                  <div class="boxempty">
+                    <div class="container-flex3-2">
+                      <div class="box8">Rp. 10.500</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="boxemp3">
+                <div class="container-flex4">
+                  <div class="box9">Total:</div>
+                  <div class="box10">Rp.115.500</div>
+                </div>
+                <div class="container-flex5">
+                  <div class="box11">Payment:</div>
+                  <div class="box12">Cash</div>
+                </div>
+              </div>
+              <div class="boxemp4">
+                <div class="buttonfunction">
+                  <button
+                    type="button"
+                    class="btn buttonprint buttonsmooth"
+                    data-dismiss="modal"
+                  >
+                    Print
+                  </button>
+                  <div class="container-flex6">
+                    <div class="box13">Or</div>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn buttonsendemail buttonsmooth"
+                    data-dismiss="modal"
+                  >
+                    Send Email
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ====================================================== -->
+    <div
+      class="modal fade"
+      id="modaladddata"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body fonts">
+            <div class="boxem">
+              <div class="boxem1">
+                <div class="container-flexb-1">
+                  <div class="rectangle1">Add Item</div>
+                </div>
+              </div>
+              <div class="boxem2">
+                <div class="container-flexa">
+                  <div class="boxempty1">
+                    <div class="container-flexb-2">
+                      <div class="nameforinput">
+                        Name
+                      </div>
+                      <div class="rectangle2">
+                        Image
+                      </div>
+                      <div class="rectangle2">
+                        Price
+                      </div>
+                      <div class="rectangle2">
+                        Category
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boxempty2">
+                    <div class="container-flexb-3">
+                      <input
+                        type="text"
+                        class="texts inputtext1 inputsmooth boxshadow"
+                      />
+                      <input
+                        type="text"
+                        class="texts inputtext1 inputsmooth boxshadow"
+                      />
+                      <div class="boxempty3">
+                        <input
+                          type="text"
+                          class="texts inputtext2 inputsmooth boxshadow"
+                        />
+                        <div class="boxempty4"></div>
+                      </div>
+                      <div class="boxempty5">
+                        <div class="dropdown">
+                          <button
+                            class="btn btn-outline-secondary dropdown-toggle dropdowncategory inputsmooth boxshadow"
+                            type="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            Category
+                          </button>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a class="dropdown-item" href="#">Food</a>
+                            <a class="dropdown-item" href="#">Drink</a>
+                          </div>
+                        </div>
+
+                        <div class="boxempty6"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="boxem3">
+                <div class="container-flexc">
+                  <button
+                    type="button"
+                    class="btn buttoncancel buttonsmooth2"
+                    data-dismiss="modal"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    type="button"
+                    class="btn buttonadd buttonsmooth2"
+                    data-dismiss="modal"
+                  >
+                    Add
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+      integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
